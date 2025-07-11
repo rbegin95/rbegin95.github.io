@@ -150,40 +150,61 @@ main {
   }
   
   .service-card {
-    background: #fff;
-    border-radius: 10px;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  }
-  
-  .service-card img {
-    max-width: 100px;
-    height: auto;
-    margin-bottom: 15px;
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    border-radius: 25px;
+    padding: 30px 20px;
+    text-align: left;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   
   .service-card h2 {
-    margin-bottom: 15px;
-    color: #5b99b5;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
   }
   
   .service-card ul {
     list-style: none;
     padding: 0;
     margin-bottom: 20px;
-    text-align: left;
+    color: #fff;
+    font-size: 1.1em;
   }
   
   .service-card ul li {
-    padding: 5px 0;
-    border-bottom: 1px solid #eee;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .service-card ul li::before {
+    content: "✅";
+    margin-right: 10px;
+    font-size: 1.2em;
   }
   
   .service-card .btn {
     margin: 0 auto;
     display: inline-block;
   }
+  
+  .service-card.bronze {
+    background-image: url('../images/bronze.png');
+  }
+  
+  .service-card.gold {
+    background-image: url('../images/gold.png');
+  }
+  
+  .service-card.platinum {
+    background-image: url('../images/platinum.png');
+  }  
 
   /* About Style */
 
