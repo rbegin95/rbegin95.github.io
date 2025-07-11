@@ -71,6 +71,10 @@ main {
   nav ul li a:hover {
     background-color: #41728d;
   }
+
+  nav ul li a.active {
+    background-color: #41728d;
+  }  
   
   /* Main content */
   .content {
