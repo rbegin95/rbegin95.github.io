@@ -9,14 +9,14 @@
     font-family: Arial, sans-serif;
     color: #333;
     background-color: #f2f2f2;
-    background-image: url(assets/images/background.png);
+    background-image: url(../clearassets/images/background.png);
     background-size: cover;
     background-repeat: repeat;
   }
   
   /* Header */
   header {
-    background-image: url(assets/images/header-car-wash.png);
+    background-image: url(../assets/images/header-car-wash.png);
     background-size: cover;
     background-position: center;
     position: relative;
