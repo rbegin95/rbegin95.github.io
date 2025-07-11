@@ -30,6 +30,7 @@
   
   header .logo {
     max-width: 200px;
+    margin-right: 950px;
   }
   
   /* Nav Bar */
@@ -114,27 +115,44 @@
   footer {
     background-color: #5b99b5;
     color: #fff;
-    text-align: center;
     padding: 20px;
   }
   
+  .footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-left {
+    flex: 1 1 auto;
+  }
+  
   .footer-logo {
-    max-width: 120px;
-    margin-bottom: 10px;
+    max-width: 150px;
+    height: auto;
   }
   
-  footer p {
-    margin: 5px 0;
+  .footer-right {
+    flex: 3 1 auto;
+    text-align: right;
   }
   
-  footer .socials a {
+  .footer-right p {
+    margin: 0 0 10px;
+  }
+  
+  .footer-right .socials a {
     color: #fff;
     font-size: 1.5em;
-    margin: 0 10px;
+    margin-left: 15px;
     text-decoration: none;
   }
   
-  footer .socials a:hover {
+  .footer-right .socials a:hover {
     color: #333;
   }
   
